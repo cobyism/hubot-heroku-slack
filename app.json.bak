@@ -1,0 +1,29 @@
+{
+  "name": "Hubot + Heroku + IRC",
+  "description": "One-button deploy for Hubot on Heroku with IRC adapter.",
+  "env": {
+    "HUBOT_IRC_SERVER": {
+      "description": "The IRC server you want to connect to.",
+      "value": "irc.freenode.net"
+    },
+    "HUBOT_IRC_ROOMS": {
+      "description": "Comma separated list of the IRC channels hubot should join.",
+      "value": "#hubot-irc"
+    },
+    "HUBOT_IRC_NICK": {
+      "description": "The nick you want your hubot to join with. If omitted it will default to the name of your hubot.",
+      "value": "hubot"
+    },
+    "HUBOT_IRC_PASSWORD": {
+      "description": "The optional password of the IRC server hubot should connect to.",
+      "required": false
+    },
+    "HEROKU_URL": {
+      "description": "Url of this app so hubot can regularly ping himself to stay awake.",
+      "value": "HEROKU_URL=http://<YOUR APP NAME HERE>.herokuapp.com"
+    }
+  },
+  "addons": [
+    "rediscloud"
+  ]
+}
