@@ -1,5 +1,5 @@
 {
-  "name": "Hubot, on Heroku, with IRC adapter",
+  "name": "Hubot + Heroku + IRC",
   "description": "One-button deploy for Hubot on Heroku with IRC adapter.",
   "logo": "https://i.cloudup.com/_823ueoTYl.png",
   "repository": "https://github.com/cobyism/hubot-heroku-irc",
