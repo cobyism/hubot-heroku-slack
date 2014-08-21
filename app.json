@@ -1,6 +1,8 @@
 {
-  "name": "Hubot + Heroku + IRC",
+  "name": "Hubot, on Heroku, with IRC adapter",
   "description": "One-button deploy for Hubot on Heroku with IRC adapter.",
+  "logo": "https://i.cloudup.com/_823ueoTYl.png",
+  "repository": "https://github.com/cobyism/hubot-heroku-irc",
   "env": {
     "HUBOT_IRC_SERVER": {
       "description": "The IRC server you want to connect to.",
