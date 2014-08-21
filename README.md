@@ -5,4 +5,4 @@ This version is designed to be deployed on [Heroku](http://www.heroku.com).
 
 Click the button below to deploy hubot to Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cobyism/hubot-heroku-irc)
