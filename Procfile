@@ -1,1 +1,1 @@
-web: bin/hubot -a irc -n Hubot
+web: bin/hubot -a slack -n Hubot
